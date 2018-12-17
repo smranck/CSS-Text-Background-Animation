@@ -28,3 +28,14 @@ body {
   animation: animateBackground 90s linear infinite;
   -webkit-animation: animateBackground 90s linear infinite;
 }
+
+/* Text background Animation */
+@keyframes animateBackground {
+  0% {
+    background-position: 0% 30%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
